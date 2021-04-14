@@ -1,0 +1,32 @@
+{
+  "name": "dictionjs",
+  "version": "0.0.3",
+  "description": "Advanced dictionary module for NodeJS.",
+  "main": "./src/index.ts",
+  "types": "./types/index.d.ts",
+
+  "author": {
+    "name": "bris",
+    "email": "bris@bris.com",
+    "url": "https://bris.com"
+  },
+  "scripts": {
+    "test": "ts-node ./test/main.test.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brisdevs/dictionjs.git"
+  },
+  "keywords": [
+    "dictionary",
+    "dictionjs"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/node": "^14.14.37",
+    "nodemon": "^2.0.7",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4"
+  }
+}
